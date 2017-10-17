@@ -30,7 +30,7 @@ numi.addUnit({
 });
 numi.addUnit({
    "id": "分钟",
-   "phrases": "分钟",
+   "phrases": "分钟,分",
    "baseUnitId": "second",
    "format" : "分钟",
    "ratio" : 60,
@@ -361,18 +361,153 @@ numi.addUnit({
 });
 
 
+//质量
+numi.addUnit({
+    "id": "千克",
+    "phrases": "千克",
+    "baseUnitId": "gram",
+    "format" : "千克",
+    "ratio" :1000,
+});
+
+numi.addUnit({
+    "id": "克",
+    "phrases": "克",
+    "baseUnitId": "gram",
+    "format" : "克",
+    "ratio" :1,
+});
+
+numi.addUnit({
+    "id": "毫克",
+    "phrases": "毫克",
+    "baseUnitId": "gram",
+    "format" : "毫克",
+    "ratio" :0.001,
+});
+numi.addUnit({
+    "id": "微克",
+    "phrases": "微克",
+    "baseUnitId": "gram",
+    "format" : "微克",
+    "ratio" :1e-6,
+});
+numi.addUnit({
+    "id": "吨",
+    "phrases": "吨",
+    "baseUnitId": "gram",
+    "format" : "吨",
+    "ratio" :1000000,
+});
+numi.addUnit({
+    "id": "公担",
+    "phrases": "公担",
+    "baseUnitId": "gram",
+    "format" : "公担",
+    "ratio" :100000,
+});
+numi.addUnit({
+    "id": "克拉",
+    "phrases": "克拉",
+    "baseUnitId": "gram",
+    "format" : "克拉",
+    "ratio" :0.2,
+});
+numi.addUnit({
+    "id": "分-质量",
+    "phrases": "分",
+    "baseUnitId": "gram",
+    "format" : "分",
+    "ratio" :0.002,
+});
 
 
+numi.addUnit({
+    "id": "磅",
+    "phrases": "磅",
+    "baseUnitId": "gram",
+    "format" : "磅",
+    "ratio" :453.59237,
+});
+numi.addUnit({
+    "id": "盎司",
+    "phrases": "盎司",
+    "baseUnitId": "gram",
+    "format" : "盎司",
+    "ratio" :28.3495231,
+});
+numi.addUnit({
+    "id": "格令",
+    "phrases": "格令",
+    "baseUnitId": "gram",
+    "format" : "格令",
+    "ratio" :0.0647989,
+});
+numi.addUnit({
+    "id": "长吨",
+    "phrases": "长吨",
+    "baseUnitId": "gram",
+    "format" : "长吨",
+    "ratio" :1016046.9088,
+});
+numi.addUnit({
+    "id": "短吨",
+    "phrases": "短吨",
+    "baseUnitId": "gram",
+    "format" : "短吨",
+    "ratio" :907184.74,
+});
+numi.addUnit({
+    "id": "英担",
+    "phrases": "英担",
+    "baseUnitId": "gram",
+    "format" : "英担",
+    "ratio" :50802.34544,
+});
+numi.addUnit({
+    "id": "英石",
+    "phrases": "英石",
+    "baseUnitId": "gram",
+    "format" : "英石",
+    "ratio" :6350.29318,
+});
+numi.addUnit({
+    "id": "打兰",
+    "phrases": "打兰",
+    "baseUnitId": "gram",
+    "format" : "打兰",
+    "ratio" :1.7718452,
+});
 
 
-
-
-
-
-
-
-
-
+numi.addUnit({
+    "id": "担",
+    "phrases": "担",
+    "baseUnitId": "gram",
+    "format" : "担",
+    "ratio" :50000,
+});
+numi.addUnit({
+    "id": "斤",
+    "phrases": "斤",
+    "baseUnitId": "gram",
+    "format" : "斤",
+    "ratio" :500,
+});
+numi.addUnit({
+    "id": "两",
+    "phrases": "两",
+    "baseUnitId": "gram",
+    "format" : "两",
+    "ratio" :50,
+});
+numi.addUnit({
+    "id": "钱",
+    "phrases": "钱",
+    "baseUnitId": "gram",
+    "format" : "钱",
+    "ratio" :5,
+});
 
 
 
