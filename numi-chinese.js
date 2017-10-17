@@ -9,7 +9,7 @@ numi.addUnit({
 });
 numi.addUnit({
    "id": "天",
-   "phrases": "天,日",
+   "phrases": "天",
    "baseUnitId": "second",
    "format" : "天",
    "ratio" : 86400,
